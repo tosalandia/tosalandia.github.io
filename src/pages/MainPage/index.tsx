@@ -24,7 +24,6 @@ const MainPage = () => {
   const ref = useRef<HTMLDivElement>(null);
 
   const reset = () => {
-    console.log("top");
     ref.current?.scroll({
       top: 0,
       behavior: "smooth",
@@ -35,7 +34,7 @@ const MainPage = () => {
     <>
       <MainContainer ref={ref}>
         {data.map((video, index) => (
-          <VideoCard key={index} video={video} />
+          <VideoCard key={index} video={video} index={index} />
         ))}
         <LastCard goBack={reset} />
       </MainContainer>
