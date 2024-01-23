@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import styled from "styled-components";
 import { VideoType } from "..";
 import BottomNav from "./BottomNav";
@@ -9,27 +9,13 @@ type VideoCardProps = {
 
 const VideoCard = ({ video }: VideoCardProps) => {
   const ref = useRef<HTMLDivElement>(null);
-  //const isInViewPort = useIsInViewPort({ ref: ref });
-
-  useEffect(
-    () => {
-      /* if (isInViewPort) {
-      //getVideos(index + 1);
-      handleNext();
-    } */
-    },
-    [
-      /* getVideos */
-      /* index, isInViewPort, handleNext */
-    ]
-  );
 
   return (
     <VideoContainer>
       <Container ref={ref}>
-        <video autoPlay loop height={"100%"} width={"100%"}>
+        <StyledVideo autoPlay loop>
           <source src={video.src} type="video/mp4" />
-        </video>
+        </StyledVideo>
         <BottomNav
           profilePic={video.profilePic}
           username={video.username}
@@ -42,6 +28,15 @@ const VideoCard = ({ video }: VideoCardProps) => {
 };
 
 export default VideoCard;
+
+const StyledVideo = styled.video`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+`;
 
 const VideoContainer = styled.div`
   height: 100vh;

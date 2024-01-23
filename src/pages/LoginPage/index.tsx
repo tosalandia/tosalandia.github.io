@@ -31,12 +31,12 @@ const LoginPage = () => {
 
   return (
     <StyledContainer>
-      <video autoPlay loop muted height={"100%"} width={"100%"}>
+      <StyledVideo autoPlay loop muted>
         <source
           src="https://media.istockphoto.com/id/1392123838/es/v%C3%ADdeo/alimentaci%C3%B3n-de-desplazamiento-manual-en-el-tel%C3%A9fono-inteligente-con-pantalla-verde-mock-up.mp4?s=mp4-640x640-is&k=20&c=SZIcYR4LoKZjrzBfNEGA3uAbtvj5CLx-uRKnMcYERxw="
           type="video/mp4"
         />
-      </video>
+      </StyledVideo>
       <StyledFront>
         <StyledBox>
           <StyledTextField
@@ -83,25 +83,34 @@ const StyledTextField = styled(TextField)`
   }
 `;
 
-const StyledContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100vw;
-`;
-
-const StyledFront = styled.div`
+const StyledVideo = styled.video`
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+`;
+
+const StyledContainer = styled.div`
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+`;
+
+const StyledFront = styled.div`
   z-index: 1;
   width: inherit;
-  height: 100vh;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
 `;
 
 const StyledBox = styled.div`
