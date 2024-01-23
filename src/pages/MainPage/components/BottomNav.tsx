@@ -117,7 +117,7 @@ const ProfileSection = ({
 
 const StyledProfileSection = styled.div`
   padding: 0px 10px;
-  width: 80%;
+  width: 95%;
 
   img {
     border-radius: 50%;
