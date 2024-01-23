@@ -2,6 +2,7 @@ import { Button, TextField } from "@mui/material";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
+import { initialVideoSrc } from "../../fakeData/fakedata";
 
 const credentials = {
   username: "",
@@ -32,10 +33,7 @@ const LoginPage = () => {
   return (
     <StyledContainer>
       <StyledVideo autoPlay loop muted>
-        <source
-          src="https://media.istockphoto.com/id/1392123838/es/v%C3%ADdeo/alimentaci%C3%B3n-de-desplazamiento-manual-en-el-tel%C3%A9fono-inteligente-con-pantalla-verde-mock-up.mp4?s=mp4-640x640-is&k=20&c=SZIcYR4LoKZjrzBfNEGA3uAbtvj5CLx-uRKnMcYERxw="
-          type="video/mp4"
-        />
+        <source src={initialVideoSrc} type="video/mp4" />
       </StyledVideo>
       <StyledFront>
         <StyledBox>
@@ -98,7 +96,7 @@ const StyledContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: red;
+  background: #000;
 `;
 
 const StyledFront = styled.div`

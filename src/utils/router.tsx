@@ -5,6 +5,7 @@ import MainPage from "../pages/MainPage";
 const router = createBrowserRouter([
   { path: "/", element: <LoginPage /> },
   { path: "/main", element: <MainPage /> },
+  { path: "*", element: <LoginPage /> },
 ]);
 
 const MainRouter = () => {
