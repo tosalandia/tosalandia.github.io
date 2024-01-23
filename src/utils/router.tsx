@@ -1,11 +1,12 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import LoginPage from "../pages/LoginPage";
 import MainPage from "../pages/MainPage";
+import RedirectPage from "../pages/RedirectPage";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   { path: "/", element: <LoginPage /> },
   { path: "/main", element: <MainPage /> },
-  { path: "*", element: <LoginPage /> },
+  { path: "*", element: <RedirectPage /> },
 ]);
 
 const MainRouter = () => {
