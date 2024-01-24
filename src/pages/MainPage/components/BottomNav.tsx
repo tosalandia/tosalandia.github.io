@@ -2,27 +2,26 @@ import { useState } from "react";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { FaCommentDots } from "react-icons/fa";
 import { IoIosSend, IoMdShare } from "react-icons/io";
-import { LuHeart } from "react-icons/lu";
 
 import styled from "styled-components";
-import { VideoType } from "..";
+import { Comments } from "../../../types/types";
 import CommentsDrawer from "./CommentsDrawer";
+import HeartIcon from "./HeartIcon";
 
 type BottomNavProps = {
   profilePic: string;
   username: string;
   caption: string;
-  video: VideoType;
+  comments: Comments[];
 };
 
 const BottomNav = ({
   profilePic,
   username,
   caption,
-  video,
+  comments,
 }: BottomNavProps) => {
   const [open, setOpen] = useState(false);
-  const [hearted, setHearted] = useState(false);
 
   const handleOpen = () => {
     setOpen(true);
@@ -30,10 +29,6 @@ const BottomNav = ({
 
   const handleClose = () => {
     setOpen(false);
-  };
-
-  const handleLike = () => {
-    setHearted(!hearted);
   };
 
   return (
@@ -46,12 +41,7 @@ const BottomNav = ({
         />
       </StyledBottomNav>
       <StyledRightBar>
-        <StyledHeart
-          size={40}
-          $hearted={hearted}
-          onClick={handleLike}
-          fill={hearted ? "red" : "transparent"}
-        />
+        <HeartIcon size={40} stroke="#fff" />
         <FaCommentDots size={40} color="white" onClick={handleOpen} />
         <IoMdShare size={40} color="white" />
         <IoIosSend size={40} color="white" />
@@ -61,18 +51,11 @@ const BottomNav = ({
         open={open}
         handleClose={handleClose}
         handleOpen={handleOpen}
-        comments={video.comments}
+        comments={comments}
       />
     </>
   );
 };
-
-const StyledHeart = styled(LuHeart)<{ $hearted?: boolean }>`
-  color: ${(props) => (props.$hearted ? "red" : "white")};
-  stroke: ${(props) => (props.$hearted ? "red" : "white")};
-  transform: ${(props) => props.$hearted && "scale(1.2)"};
-  transition: color 0.25s ease-in-out, transform 0.25s ease, stroke 0.1s ease;
-`;
 
 const StyledBottomNav = styled.div`
   position: absolute;
@@ -117,7 +100,7 @@ const ProfileSection = ({
 
 const StyledProfileSection = styled.div`
   padding: 0px 10px;
-  width: 95%;
+  width: 90%;
 
   img {
     border-radius: 50%;

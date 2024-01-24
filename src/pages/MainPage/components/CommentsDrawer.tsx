@@ -1,17 +1,13 @@
 import { SwipeableDrawer } from "@mui/material";
-import { LuHeart } from "react-icons/lu";
 import styled from "styled-components";
+import { Comments } from "../../../types/types";
+import HeartIcon from "./HeartIcon";
 
 type CommentsDrawerProps = {
   open: boolean;
   handleClose: () => void;
   handleOpen: () => void;
-  comments: {
-    username: string;
-    comment: string;
-    date: string;
-    likes: number;
-  }[];
+  comments: Comments[];
 };
 
 const CommentsDrawer = ({
@@ -45,7 +41,7 @@ const CommentsDrawer = ({
               <StyledComment>{comment.comment}</StyledComment>
             </div>
             <StyledLikes>
-              <LuHeart size={20} />
+              <HeartIcon size={20} stroke="#000" />
               <span style={{ fontSize: 17 }}>{comment.likes}</span>
             </StyledLikes>
           </StyledCommentBox>

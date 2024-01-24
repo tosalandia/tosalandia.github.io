@@ -1,4 +1,4 @@
-import { VideoType } from "../pages/MainPage";
+import { TikToks } from "../types/types";
 
 export const initialVideoSrc =
   "https://media.istockphoto.com/id/1392123838/es/v%C3%ADdeo/alimentaci%C3%B3n-de-desplazamiento-manual-en-el-tel%C3%A9fono-inteligente-con-pantalla-verde-mock-up.mp4?s=mp4-640x640-is&k=20&c=SZIcYR4LoKZjrzBfNEGA3uAbtvj5CLx-uRKnMcYERxw=";
@@ -6,10 +6,11 @@ export const initialVideoSrc =
 export const finalVideoSrc =
   "https://media.istockphoto.com/id/1392123838/es/v%C3%ADdeo/alimentaci%C3%B3n-de-desplazamiento-manual-en-el-tel%C3%A9fono-inteligente-con-pantalla-verde-mock-up.mp4?s=mp4-640x640-is&k=20&c=SZIcYR4LoKZjrzBfNEGA3uAbtvj5CLx-uRKnMcYERxw=";
 
-export const fakeVideos: VideoType[] = [
+export const fakeVideos: TikToks[] = [
   {
-    index: 0,
-    src: "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0u/sc.mp4?srcid=cZVZQoVJB0u&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMHUvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjB1IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NzI5fX19XX0_&Signature=N-20UkVgF3QwPBriyTPLqnpxAFL23RvloMweL0d1Ss1WwX2pxuVV20Fu6AAw3zDFtQsPnZETVbjc-g7pK2kvTOYFYjSH2-hfSwIcYAkDZClHn-Wu3TZusVvpvSKaEnTgxBpyuv7B-zankiJwoliVS8IzUIFAnvpoBS-eB6Jb-k0_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    type: "video",
+    videosrc:
+      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0u/sc.mp4?srcid=cZVZQoVJB0u&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMHUvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjB1IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NzI5fX19XX0_&Signature=N-20UkVgF3QwPBriyTPLqnpxAFL23RvloMweL0d1Ss1WwX2pxuVV20Fu6AAw3zDFtQsPnZETVbjc-g7pK2kvTOYFYjSH2-hfSwIcYAkDZClHn-Wu3TZusVvpvSKaEnTgxBpyuv7B-zankiJwoliVS8IzUIFAnvpoBS-eB6Jb-k0_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption:
@@ -32,8 +33,9 @@ export const fakeVideos: VideoType[] = [
     ],
   },
   {
-    index: 1,
-    src: "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0O/sc.mp4?srcid=cZVZQoVJB0O&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCME8vc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjBPIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NjMyfX19XX0_&Signature=AzgY8ucw1dMOYwHoq2hXwyuUuC11T0Te-w7drkmkz6~kez17-lDbHMuquSVfLkfmNXBYP~QoAA5NxuwhoaEAc~vxGvS2k0zIYP9~TDzFfka8o4KE4AS32V6NWXFUmz5jVzoN5JaoNeXiUYThoROG2VRM4M0GnQlbRb8ncPMXcJ8_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    type: "video",
+    videosrc:
+      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0O/sc.mp4?srcid=cZVZQoVJB0O&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCME8vc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjBPIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NjMyfX19XX0_&Signature=AzgY8ucw1dMOYwHoq2hXwyuUuC11T0Te-w7drkmkz6~kez17-lDbHMuquSVfLkfmNXBYP~QoAA5NxuwhoaEAc~vxGvS2k0zIYP9~TDzFfka8o4KE4AS32V6NWXFUmz5jVzoN5JaoNeXiUYThoROG2VRM4M0GnQlbRb8ncPMXcJ8_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
     profilePic:
       "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png",
     caption:
@@ -56,8 +58,9 @@ export const fakeVideos: VideoType[] = [
     ],
   },
   {
-    index: 2,
-    src: "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0T/sc.mp4?srcid=cZVZQoVJB0T&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMFQvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjBUIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NTg3fX19XX0_&Signature=IlnStlyOQVCV2FBzZ7iIUqBDKBISTAso-F21fS9R5C2BpYUdtPbRYPb5hGXSNEnsoO3mcOtg313Z~xtAkC8rtFKP2Ghhf~h~fzYSvaN8Sar6DVzyq6BJtjkH301JmyIbhvZ6-GHEacoumatMSk5lKRCBtSzvVJftHvcr5-3Rqdk_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    type: "video",
+    videosrc:
+      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0T/sc.mp4?srcid=cZVZQoVJB0T&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMFQvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjBUIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NTg3fX19XX0_&Signature=IlnStlyOQVCV2FBzZ7iIUqBDKBISTAso-F21fS9R5C2BpYUdtPbRYPb5hGXSNEnsoO3mcOtg313Z~xtAkC8rtFKP2Ghhf~h~fzYSvaN8Sar6DVzyq6BJtjkH301JmyIbhvZ6-GHEacoumatMSk5lKRCBtSzvVJftHvcr5-3Rqdk_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
     profilePic:
       "https://static.vecteezy.com/system/resources/previews/021/548/095/non_2x/default-profile-picture-avatar-user-avatar-icon-person-icon-head-icon-profile-picture-icons-default-anonymous-user-male-and-female-businessman-photo-placeholder-social-network-avatar-portrait-free-vector.jpg",
     caption: "Tú con tu futura hija",
@@ -73,8 +76,9 @@ export const fakeVideos: VideoType[] = [
     ],
   },
   {
-    index: 3,
-    src: "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0U/sc.mp4?srcid=cZVZQoVJB0U&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMFUvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjBVIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NzY0fX19XX0_&Signature=IOgTYacF~zExjRpe~mQvZj2sZWoQhzwj1JIZPCxJkdO6qKq5mkAo7HaWWKxSOn6g1Gm~wtgq~yOKjW~AaOs4WZ67vkdLjs6sxzoFpNOwsJMDLeuU3j1phe7Gxazi8uRURDVxrCCusZg5K9fyLsGf8Z09G5OynNtgXUDJDsGHxIM_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    type: "video",
+    videosrc:
+      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0U/sc.mp4?srcid=cZVZQoVJB0U&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMFUvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjBVIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NzY0fX19XX0_&Signature=IOgTYacF~zExjRpe~mQvZj2sZWoQhzwj1JIZPCxJkdO6qKq5mkAo7HaWWKxSOn6g1Gm~wtgq~yOKjW~AaOs4WZ67vkdLjs6sxzoFpNOwsJMDLeuU3j1phe7Gxazi8uRURDVxrCCusZg5K9fyLsGf8Z09G5OynNtgXUDJDsGHxIM_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
     profilePic:
       "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
     caption: "javascript html css react nodejs deploy php mysql",
@@ -96,8 +100,9 @@ export const fakeVideos: VideoType[] = [
     ],
   },
   {
-    index: 4,
-    src: "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0v/sc.mp4?srcid=cZVZQoVJB0v&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMHYvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjB2IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0Nzg0fX19XX0_&Signature=cqCn0qYTc8UZ5cP-k-I7O0PqZ3pJcY8uWAlC~m4~KZErhY2VVemh50kxl9s9XPH~RNmMRECK5uCF5ZNYmEmgoLP5ZkwrG-pjyc6Vk1PU0E49MXZW6FmMw0qOZgQkLfI9lZm79g7Xe06HTNTLoItm5x8UJ6EixnizFPgUqBmGWH0_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    type: "video",
+    videosrc:
+      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0v/sc.mp4?srcid=cZVZQoVJB0v&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMHYvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjB2IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0Nzg0fX19XX0_&Signature=cqCn0qYTc8UZ5cP-k-I7O0PqZ3pJcY8uWAlC~m4~KZErhY2VVemh50kxl9s9XPH~RNmMRECK5uCF5ZNYmEmgoLP5ZkwrG-pjyc6Vk1PU0E49MXZW6FmMw0qOZgQkLfI9lZm79g7Xe06HTNTLoItm5x8UJ6EixnizFPgUqBmGWH0_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
     profilePic:
       "https://st2.depositphotos.com/2559749/11304/v/450/depositphotos_113040644-stock-illustration-flat-icon-isolate-on-white.jpg",
     caption:
@@ -159,8 +164,9 @@ export const fakeVideos: VideoType[] = [
     ],
   },
   {
-    index: 5,
-    src: "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0t/sc.mp4?srcid=cZVZQoVJB0t&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMHQvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjB0IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NzA2fX19XX0_&Signature=EzIZunt8AMBNWQWmagSAoSAybh-JGhT51EZa9Oe5IUJca7cK0QGBMeNfbs1v0uSR1cRqvkuImmBRKzFhS6MwniihtRVIpdMV2F3OUDHegNLXFj5xhYnCPOIb3e8gyzQ8mW4XrX85Xk5CzipV47foeV3uCxmV~AbF1sCeSlZ9aho_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    type: "video",
+    videosrc:
+      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0t/sc.mp4?srcid=cZVZQoVJB0t&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMHQvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjB0IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NzA2fX19XX0_&Signature=EzIZunt8AMBNWQWmagSAoSAybh-JGhT51EZa9Oe5IUJca7cK0QGBMeNfbs1v0uSR1cRqvkuImmBRKzFhS6MwniihtRVIpdMV2F3OUDHegNLXFj5xhYnCPOIb3e8gyzQ8mW4XrX85Xk5CzipV47foeV3uCxmV~AbF1sCeSlZ9aho_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
     profilePic:
       "https://cdn.pixabay.com/photo/2017/02/23/13/05/avatar-2092113_1280.png",
     caption:
@@ -286,8 +292,9 @@ export const fakeVideos: VideoType[] = [
     ],
   },
   {
-    index: 6,
-    src: "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0Z/sc.mp4?srcid=cZVZQoVJB0Z&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMFovc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjBaIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0ODE1fX19XX0_&Signature=GDajLjFgY0lA20w9nrxB73tBasVnyIPB61L91EtqihGTZ0vvirgTKdUQBjkFhzr4qXVkP-8F0zf0VoqMyEFijI5c999pskYqBaisnHpjZK1dFj12dfwsh8uQEEp0m4xBg3HQnuCEwsgrjGAfe58WZ8o2T1Rpgdfz1ujiXUmio-U_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    type: "video",
+    videosrc:
+      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0Z/sc.mp4?srcid=cZVZQoVJB0Z&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMFovc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjBaIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0ODE1fX19XX0_&Signature=GDajLjFgY0lA20w9nrxB73tBasVnyIPB61L91EtqihGTZ0vvirgTKdUQBjkFhzr4qXVkP-8F0zf0VoqMyEFijI5c999pskYqBaisnHpjZK1dFj12dfwsh8uQEEp0m4xBg3HQnuCEwsgrjGAfe58WZ8o2T1Rpgdfz1ujiXUmio-U_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption: "Cámaras en directo captan a Marta saliendo del garaje.",
@@ -309,8 +316,9 @@ export const fakeVideos: VideoType[] = [
     ],
   },
   {
-    index: 7,
-    src: "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB00/sc.mp4?srcid=cZVZQoVJB00&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMDAvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjAwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0MjE5fX19XX0_&Signature=B3joHrQgbLLXGv3cVS1CWh443kIqTS-muquePSyJhulwLCC1TuFn~RnA3eTCovBfxnTOuKUFBVj7BYrqkEYh5ZVJzXttLp1fgrPvdeR9oB4lW3TEYFllRcRGF9ft5N6iEdZxXUR7nGLjXTLAmqoDd5KtCShjtBl~Qpuu4vWaD90_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    type: "video",
+    videosrc:
+      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB00/sc.mp4?srcid=cZVZQoVJB00&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMDAvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjAwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0MjE5fX19XX0_&Signature=B3joHrQgbLLXGv3cVS1CWh443kIqTS-muquePSyJhulwLCC1TuFn~RnA3eTCovBfxnTOuKUFBVj7BYrqkEYh5ZVJzXttLp1fgrPvdeR9oB4lW3TEYFllRcRGF9ft5N6iEdZxXUR7nGLjXTLAmqoDd5KtCShjtBl~Qpuu4vWaD90_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption: "It's your baby's first snow day!",
@@ -331,8 +339,9 @@ export const fakeVideos: VideoType[] = [
     ],
   },
   {
-    index: 8,
-    src: "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0w/sc.mp4?srcid=cZVZQoVJB0w&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMHcvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjB3IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0Nzk4fX19XX0_&Signature=IvURM8Ny-t5~nNn4Ieq18zyWynkR60XunxEcc6ciyCq8ErRxHIRkffJW8fJVw29fEnzpq4JOcQU0kypRd5O9yAEiFuASU7X9S8Idjxtt2xrIfNYSsewlII3c60Tp8HgS8Am~lW58rcTfSVPrnu0Js8UoqnQD4jjddBF64lCtqP4_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    type: "video",
+    videosrc:
+      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0w/sc.mp4?srcid=cZVZQoVJB0w&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMHcvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjB3IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0Nzk4fX19XX0_&Signature=IvURM8Ny-t5~nNn4Ieq18zyWynkR60XunxEcc6ciyCq8ErRxHIRkffJW8fJVw29fEnzpq4JOcQU0kypRd5O9yAEiFuASU7X9S8Idjxtt2xrIfNYSsewlII3c60Tp8HgS8Am~lW58rcTfSVPrnu0Js8UoqnQD4jjddBF64lCtqP4_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
     profilePic:
       "https://cdn.pixabay.com/photo/2017/02/23/13/05/avatar-2092113_1280.png",
     caption: "Taylor si tocara música buena de verdad",
@@ -361,3 +370,44 @@ export const fakeVideos: VideoType[] = [
     ],
   },
 ];
+
+export const fakeCards: TikToks[] = [
+  {
+    type: "cards",
+    imagessrc: [
+      "https://i.ibb.co/t26dzPn/comida.png",
+      "https://i.ibb.co/QDQrcKt/plan.png",
+      "https://i.ibb.co/9TBP7cX/casa-ideal.png",
+      "https://i.ibb.co/8rgqg1Y/dulce.png",
+      "https://i.ibb.co/5GG1cht/mascota.png",
+      "https://i.ibb.co/CzwYBSD/viaje.png",
+      "https://i.ibb.co/PWVvhWW/artista.png",
+    ],
+    profilePic:
+      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
+    caption:
+      "Si conoces realmente a tu pareja sabrás decir cuál de estas opciones elige en cada situación.",
+    username: "Tests de pareja",
+    comments: [
+      {
+        username: "colacados",
+        comment: "Estos seríamos tú y yo @tosa <3",
+        date: "1 d",
+        likes: 687,
+      },
+      {
+        username: "ducky_ducky",
+        comment:
+          "A mí también me gustan los patos. Ojalá tuviera a alguien con quien compartir este vídeo",
+        date: "5 d",
+        likes: 12,
+      },
+    ],
+  },
+];
+
+const shuffleArray = (array: TikToks[]) => {
+  return array.sort(() => Math.random() - 0.5);
+};
+
+export const fakeMixed: TikToks[] = shuffleArray([...fakeVideos, ...fakeCards]);
