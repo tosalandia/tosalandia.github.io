@@ -1,15 +1,13 @@
 import { TikToks } from "../types/types";
 
-export const initialVideoSrc =
-  "https://www.youtube.com/embed/gvBsgV32dY8?si=UNSd8dbkCoYQtLxw";
+export const initialVideoSrc = "videos/home.mp4";
 export const finalVideoSrc =
   "https://media.istockphoto.com/id/1392123838/es/v%C3%ADdeo/alimentaci%C3%B3n-de-desplazamiento-manual-en-el-tel%C3%A9fono-inteligente-con-pantalla-verde-mock-up.mp4?s=mp4-640x640-is&k=20&c=SZIcYR4LoKZjrzBfNEGA3uAbtvj5CLx-uRKnMcYERxw=";
 
 export const fakeVideos: TikToks[] = [
   {
     type: "video",
-    videosrc:
-      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0u/sc.mp4?srcid=cZVZQoVJB0u&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMHUvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjB1IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NzI5fX19XX0_&Signature=N-20UkVgF3QwPBriyTPLqnpxAFL23RvloMweL0d1Ss1WwX2pxuVV20Fu6AAw3zDFtQsPnZETVbjc-g7pK2kvTOYFYjSH2-hfSwIcYAkDZClHn-Wu3TZusVvpvSKaEnTgxBpyuv7B-zankiJwoliVS8IzUIFAnvpoBS-eB6Jb-k0_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    videosrc: "videos/patos.mp4",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption:
@@ -31,10 +29,37 @@ export const fakeVideos: TikToks[] = [
       },
     ],
   },
+  /* {
+    type: "video",
+    videosrc: "videos/gato_king.mp4",
+    profilePic:
+      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
+    caption:
+      "Que te crees tú que estoy para estos humos después de tus enfados",
+    username: "gato_king_69",
+    comments: [],
+  }, */
   {
     type: "video",
-    videosrc:
-      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0O/sc.mp4?srcid=cZVZQoVJB0O&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCME8vc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjBPIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NjMyfX19XX0_&Signature=AzgY8ucw1dMOYwHoq2hXwyuUuC11T0Te-w7drkmkz6~kez17-lDbHMuquSVfLkfmNXBYP~QoAA5NxuwhoaEAc~vxGvS2k0zIYP9~TDzFfka8o4KE4AS32V6NWXFUmz5jVzoN5JaoNeXiUYThoROG2VRM4M0GnQlbRb8ncPMXcJ8_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    videosrc: "videos/taylor_joke.mp4",
+    profilePic:
+      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
+    caption: "xDDDDD",
+    username: "taylor_joking_421",
+    comments: [],
+  },
+  {
+    type: "video",
+    videosrc: "videos/tomar_cafe.mp4",
+    profilePic:
+      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
+    caption: "Ya es un clásico",
+    username: "weird_frog",
+    comments: [],
+  },
+  {
+    type: "video",
+    videosrc: "videos/mono.mp4",
     profilePic:
       "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png",
     caption:
@@ -58,8 +83,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc:
-      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0T/sc.mp4?srcid=cZVZQoVJB0T&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMFQvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjBUIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NTg3fX19XX0_&Signature=IlnStlyOQVCV2FBzZ7iIUqBDKBISTAso-F21fS9R5C2BpYUdtPbRYPb5hGXSNEnsoO3mcOtg313Z~xtAkC8rtFKP2Ghhf~h~fzYSvaN8Sar6DVzyq6BJtjkH301JmyIbhvZ6-GHEacoumatMSk5lKRCBtSzvVJftHvcr5-3Rqdk_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    videosrc: "videos/mama_golpe.mp4",
     profilePic:
       "https://static.vecteezy.com/system/resources/previews/021/548/095/non_2x/default-profile-picture-avatar-user-avatar-icon-person-icon-head-icon-profile-picture-icons-default-anonymous-user-male-and-female-businessman-photo-placeholder-social-network-avatar-portrait-free-vector.jpg",
     caption: "Tú con tu futura hija",
@@ -76,8 +100,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc:
-      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0U/sc.mp4?srcid=cZVZQoVJB0U&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMFUvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjBVIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NzY0fX19XX0_&Signature=IOgTYacF~zExjRpe~mQvZj2sZWoQhzwj1JIZPCxJkdO6qKq5mkAo7HaWWKxSOn6g1Gm~wtgq~yOKjW~AaOs4WZ67vkdLjs6sxzoFpNOwsJMDLeuU3j1phe7Gxazi8uRURDVxrCCusZg5K9fyLsGf8Z09G5OynNtgXUDJDsGHxIM_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    videosrc: "videos/perro.mp4",
     profilePic:
       "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
     caption: "javascript html css react nodejs deploy php mysql",
@@ -100,8 +123,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc:
-      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0v/sc.mp4?srcid=cZVZQoVJB0v&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMHYvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjB2IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0Nzg0fX19XX0_&Signature=cqCn0qYTc8UZ5cP-k-I7O0PqZ3pJcY8uWAlC~m4~KZErhY2VVemh50kxl9s9XPH~RNmMRECK5uCF5ZNYmEmgoLP5ZkwrG-pjyc6Vk1PU0E49MXZW6FmMw0qOZgQkLfI9lZm79g7Xe06HTNTLoItm5x8UJ6EixnizFPgUqBmGWH0_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    videosrc: "videos/perry.mp4",
     profilePic:
       "https://st2.depositphotos.com/2559749/11304/v/450/depositphotos_113040644-stock-illustration-flat-icon-isolate-on-white.jpg",
     caption:
@@ -164,8 +186,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc:
-      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0t/sc.mp4?srcid=cZVZQoVJB0t&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMHQvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjB0IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0NzA2fX19XX0_&Signature=EzIZunt8AMBNWQWmagSAoSAybh-JGhT51EZa9Oe5IUJca7cK0QGBMeNfbs1v0uSR1cRqvkuImmBRKzFhS6MwniihtRVIpdMV2F3OUDHegNLXFj5xhYnCPOIb3e8gyzQ8mW4XrX85Xk5CzipV47foeV3uCxmV~AbF1sCeSlZ9aho_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    videosrc: "videos/pato.mp4",
     profilePic:
       "https://cdn.pixabay.com/photo/2017/02/23/13/05/avatar-2092113_1280.png",
     caption:
@@ -292,8 +313,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc:
-      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0Z/sc.mp4?srcid=cZVZQoVJB0Z&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMFovc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjBaIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0ODE1fX19XX0_&Signature=GDajLjFgY0lA20w9nrxB73tBasVnyIPB61L91EtqihGTZ0vvirgTKdUQBjkFhzr4qXVkP-8F0zf0VoqMyEFijI5c999pskYqBaisnHpjZK1dFj12dfwsh8uQEEp0m4xBg3HQnuCEwsgrjGAfe58WZ8o2T1Rpgdfz1ujiXUmio-U_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    videosrc: "videos/coche.mp4",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption: "Cámaras en directo captan a Marta saliendo del garaje.",
@@ -316,8 +336,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc:
-      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB00/sc.mp4?srcid=cZVZQoVJB00&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMDAvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjAwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0MjE5fX19XX0_&Signature=B3joHrQgbLLXGv3cVS1CWh443kIqTS-muquePSyJhulwLCC1TuFn~RnA3eTCovBfxnTOuKUFBVj7BYrqkEYh5ZVJzXttLp1fgrPvdeR9oB4lW3TEYFllRcRGF9ft5N6iEdZxXUR7nGLjXTLAmqoDd5KtCShjtBl~Qpuu4vWaD90_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    videosrc: "videos/bebe.mp4",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption: "It's your baby's first snow day!",
@@ -339,8 +358,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc:
-      "https://d3v55qvjb2v012.cloudfront.net/AhRx/2024/01/24/09/15/cZVZQoVJB0w/sc.mp4?srcid=cZVZQoVJB0w&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kM3Y1NXF2amIydjAxMi5jbG91ZGZyb250Lm5ldC9BaFJ4LzIwMjQvMDEvMjQvMDkvMTUvY1pWWlFvVkpCMHcvc2MubXA0P3NyY2lkPWNaVlpRb1ZKQjB3IiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzA2MTc0Nzk4fX19XX0_&Signature=IvURM8Ny-t5~nNn4Ieq18zyWynkR60XunxEcc6ciyCq8ErRxHIRkffJW8fJVw29fEnzpq4JOcQU0kypRd5O9yAEiFuASU7X9S8Idjxtt2xrIfNYSsewlII3c60Tp8HgS8Am~lW58rcTfSVPrnu0Js8UoqnQD4jjddBF64lCtqP4_&Key-Pair-Id=APKAI4E2RN57D46ONMEQ",
+    videosrc: "videos/taylor.mp4",
     profilePic:
       "https://cdn.pixabay.com/photo/2017/02/23/13/05/avatar-2092113_1280.png",
     caption: "Taylor si tocara música buena de verdad",
@@ -374,13 +392,13 @@ export const fakeCards: TikToks[] = [
   {
     type: "cards",
     imagessrc: [
-      "https://i.ibb.co/t26dzPn/comida.png",
-      "https://i.ibb.co/QDQrcKt/plan.png",
-      "https://i.ibb.co/9TBP7cX/casa-ideal.png",
-      "https://i.ibb.co/8rgqg1Y/dulce.png",
-      "https://i.ibb.co/5GG1cht/mascota.png",
-      "https://i.ibb.co/CzwYBSD/viaje.png",
-      "https://i.ibb.co/PWVvhWW/artista.png",
+      "images/comida.png",
+      "images/plan.png",
+      "images/casa-ideal.png",
+      "images/dulce.png",
+      "images/mascota.png",
+      "images/viaje.png",
+      "images/artista.png",
     ],
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
@@ -403,10 +421,42 @@ export const fakeCards: TikToks[] = [
       },
     ],
   },
+  {
+    type: "cards",
+    imagessrc: [
+      "images/pregunta1.png",
+      "images/pregunta2.png",
+      "images/pregunta3.png",
+      "images/pregunta4.png",
+      "images/pregunta5.png",
+      "images/pregunta6.png",
+      "images/respuestas.png",
+    ],
+    profilePic:
+      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
+    caption:
+      "¿Eres más listo que un niño de 5 años? ¡Descúbrelo con este test!",
+    username: "Tests de inteligencia",
+    comments: [
+      {
+        username: "colacados",
+        comment: "Me las supe todas jejeje",
+        date: "1 d",
+        likes: 68,
+      },
+      {
+        username: "tosa",
+        comment:
+          "En la de Taylor hay un error, no han contado el disco que va a sacar en abril que TEKNIKAMENTE ya está grabado así que serían 11 mimimimimimi",
+        date: "1 d",
+        likes: -92,
+      },
+    ],
+  },
 ];
 
 const shuffleArray = (array: TikToks[]) => {
-  return array.sort(() => Math.random() - 0.5);
+  return array;
 };
 
 export const fakeMixed: TikToks[] = shuffleArray([...fakeVideos, ...fakeCards]);
