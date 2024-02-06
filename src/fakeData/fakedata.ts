@@ -5,6 +5,50 @@ export const finalVideoSrc = "videos/final.mp4";
 export const fakeVideos: TikToks[] = [
   {
     type: "video",
+    videosrc: "videos/not_really_fine.mp4",
+    profilePic:
+      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
+    caption: "Qué dura es la vida del hombre casado",
+    username: "Live from prison",
+    comments: [
+      {
+        username: "tosa",
+        comment: "Dramas, que eres un dramas",
+        date: "1 d",
+        likes: -5,
+      },
+      {
+        username: "generic_man",
+        comment: "Te entiendo perfectamente. No estás solo.",
+        date: "1 d",
+        likes: 77,
+      },
+      {
+        username: "common_guy",
+        comment: "Recuerda siempre: No ignores, denuncia.",
+        date: "1 d",
+        likes: 83,
+      },
+      {
+        username: "casual_guy",
+        comment:
+          "Las mujeres nos tratan como si fuéramos basura. No te preocupes, yo también lo he vivido.",
+        date: "1 d",
+        likes: 114,
+      },
+    ],
+  },
+  {
+    type: "video",
+    videosrc: "videos/excel.mp4",
+    profilePic:
+      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
+    caption: "Fórmulas de excel. Capítulo 37.",
+    username: "excel_lover_365",
+    comments: [],
+  },
+  {
+    type: "video",
     videosrc: "videos/patos.mp4",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
@@ -24,6 +68,22 @@ export const fakeVideos: TikToks[] = [
           "A mí también me gustan los patos. Ojalá tuviera a alguien con quien compartir este vídeo",
         date: "5 d",
         likes: 12,
+      },
+    ],
+  },
+  {
+    type: "video",
+    videosrc: "videos/when_you_know_1.mp4",
+    profilePic:
+      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
+    caption: "When you know, you know.",
+    username: "edgy_boy 33",
+    comments: [
+      {
+        username: "colacados",
+        comment: "And when you don't know... YOU DON'T KNOW 😭😭😭😭😭", // Emoji de llorar: 😭
+        date: "1 d",
+        likes: 13,
       },
     ],
   },
@@ -100,6 +160,28 @@ export const fakeVideos: TikToks[] = [
         comment: "Buena canción de fondo, ¿quién la canta?",
         date: "9 d",
         likes: 1,
+      },
+    ],
+  },
+  {
+    type: "video",
+    videosrc: "videos/when_you_know_2.mp4",
+    profilePic:
+      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
+    caption: "When you know, you know.",
+    username: "edgy_boy 33",
+    comments: [
+      {
+        username: "colacados",
+        comment: "Y no quería decirlo pero...", // Emoji de llorar: 😭
+        date: "1 d",
+        likes: 13,
+      },
+      {
+        username: "colacados",
+        comment: "😭 WHEN 😭 YOU 😭 DON'T 😭 KNOW 😭, YOU 😭 DON'T 😭 KNOW 😭", // Emoji de llorar: 😭
+        date: "1 d",
+        likes: 55,
       },
     ],
   },
@@ -203,6 +285,28 @@ export const fakeVideos: TikToks[] = [
           "I'm the platypus king. I rule over all the platypuses in the world, except for the platypus queen.",
         date: "1 d",
         likes: 73,
+      },
+    ],
+  },
+  {
+    type: "video",
+    videosrc: "videos/when_you_know_3.mp4",
+    profilePic:
+      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
+    caption: "When you know, you know.",
+    username: "edgy_boy 33",
+    comments: [
+      {
+        username: "colacados",
+        comment: "CAUSE WHEN YOU KNOW, YOU KNOWWWWWW",
+        date: "1 d",
+        likes: 44,
+      },
+      {
+        username: "tosa",
+        comment: "madre mía cada día más tonto, qué será de nuestros hijos 😭",
+        date: "1 d",
+        likes: 1,
       },
     ],
   },
