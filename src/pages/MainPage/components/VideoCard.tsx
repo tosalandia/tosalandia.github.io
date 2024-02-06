@@ -1,6 +1,7 @@
+import { AdvancedVideo } from "@cloudinary/react";
+import { Cloudinary } from "@cloudinary/url-gen";
 import { useCallback, useEffect, useRef, useState } from "react";
 import styled from "styled-components";
-
 import { VideoType } from "../../../types/types";
 import useIsInViewPort from "../../../utils/isInViewPort";
 import BottomNav from "./BottomNav";
@@ -14,6 +15,9 @@ const VideoCard = ({ video }: VideoCardProps) => {
   const spanRef = useRef<HTMLSpanElement>(null);
   const isInViewport = useIsInViewPort({ ref: spanRef });
   const [isPlaying, setIsPlaying] = useState(false);
+
+  const cld = new Cloudinary({ cloud: { cloudName: "dfpalvvqh" } });
+  const videoUrl = cld.video(video.videosrc);
 
   const pause = useCallback(async () => {
     if (!isPlaying || !videoRef) return;
@@ -38,9 +42,10 @@ const VideoCard = ({ video }: VideoCardProps) => {
   return (
     <VideoContainer>
       <Container>
-        <StyledVideo ref={videoRef} loop autoPlay={isInViewport}>
-          <source src={video.videosrc} type="video/mp4" />
-        </StyledVideo>
+        {/* <StyledVideo ref={videoRef} loop autoPlay={isInViewport}>
+          <source src={videoUrl} type="video/mp4" />
+        </StyledVideo> */}
+        <StyledVideo cldVid={videoUrl} autoPlay={isInViewport} loop />
         <CenteredSpan ref={spanRef}>{0}</CenteredSpan>
         <BottomNav
           profilePic={video.profilePic}
@@ -55,7 +60,7 @@ const VideoCard = ({ video }: VideoCardProps) => {
 
 export default VideoCard;
 
-const StyledVideo = styled.video`
+const StyledVideo = styled(AdvancedVideo)`
   position: absolute;
   top: 0;
   left: 0;

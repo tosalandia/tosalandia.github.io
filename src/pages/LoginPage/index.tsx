@@ -1,3 +1,5 @@
+import { AdvancedVideo } from "@cloudinary/react";
+import { Cloudinary } from "@cloudinary/url-gen/index";
 import { Button, TextField } from "@mui/material";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -11,6 +13,9 @@ const credentials = {
 
 const LoginPage = () => {
   const navigate = useNavigate();
+  const cld = new Cloudinary({ cloud: { cloudName: "dfpalvvqh" } });
+  const videoUrl = cld.video(initialVideoSrc);
+
   const [user, setUser] = useState<{
     username: string;
     password: string;
@@ -32,9 +37,7 @@ const LoginPage = () => {
 
   return (
     <StyledContainer>
-      <StyledVideo autoPlay loop muted>
-        <source src={initialVideoSrc} type="video/mp4" />
-      </StyledVideo>
+      <StyledVideo cldVid={videoUrl} autoPlay loop muted />
       <StyledFront>
         <StyledBox>
           <StyledTextField
@@ -81,7 +84,7 @@ const StyledTextField = styled(TextField)`
   }
 `;
 
-const StyledVideo = styled.video`
+const StyledVideo = styled(AdvancedVideo)`
   position: absolute;
   top: 0;
   left: 0;

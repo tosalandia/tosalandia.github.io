@@ -1,3 +1,5 @@
+import { AdvancedVideo } from "@cloudinary/react";
+import { Cloudinary } from "@cloudinary/url-gen/index";
 import { Button } from "@mui/material";
 import { useRef } from "react";
 import styled from "styled-components";
@@ -9,13 +11,13 @@ type LastCardProps = {
 
 const LastCard = ({ goBack }: LastCardProps) => {
   const ref = useRef<HTMLDivElement>(null);
+  const cld = new Cloudinary({ cloud: { cloudName: "dfpalvvqh" } });
+  const videoUrl = cld.video(finalVideoSrc);
 
   return (
     <VideoContainer>
       <Container ref={ref}>
-        <StyledVideo autoPlay loop>
-          <source src={finalVideoSrc} type="video/mp4" />
-        </StyledVideo>
+        <StyledVideo cldVid={videoUrl} autoPlay loop muted />
         <BackdropContainer>
           <StyledTitle>¡Eso es todo amigos!</StyledTitle>
           <StyledSecondaryTitle>
@@ -32,7 +34,7 @@ const LastCard = ({ goBack }: LastCardProps) => {
 
 export default LastCard;
 
-const StyledVideo = styled.video`
+const StyledVideo = styled(AdvancedVideo)`
   position: absolute;
   top: 0;
   left: 0;

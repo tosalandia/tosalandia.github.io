@@ -1,11 +1,11 @@
 import { TikToks } from "../types/types";
 
-export const initialVideoSrc = "videos/home.mp4";
-export const finalVideoSrc = "videos/final.mp4";
+export const initialVideoSrc = "xaypsjzculzhb5qg2hls";
+export const finalVideoSrc = "acm3vyi5pusl8w7qg8em";
 export const fakeVideos: TikToks[] = [
   {
     type: "video",
-    videosrc: "videos/patos.mp4",
+    videosrc: "qzuhmwr2qcnovcxdl2x2",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption:
@@ -29,7 +29,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/when_you_know_1.mp4",
+    videosrc: "yvuwkqdupgr4ajwqt0xd",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption: "When you know, you know.",
@@ -45,7 +45,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/asmr.mp4",
+    videosrc: "kydhjnmfpw4syxp12erq",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption:
@@ -67,19 +67,19 @@ export const fakeVideos: TikToks[] = [
       },
     ],
   },
-  /* {
+  {
     type: "video",
-    videosrc: "videos/gato_king.mp4",
+    videosrc: "ljallsgvj7xg89ckrwo8",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption:
       "Que te crees tú que estoy para estos humos después de tus enfados",
     username: "gato_king_69",
     comments: [],
-  }, */
+  },
   {
     type: "video",
-    videosrc: "videos/taylor_joke.mp4",
+    videosrc: "gq0ucdxeiljcqe7qb0df",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption: "xDDDDD",
@@ -88,7 +88,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/tomar_cafe.mp4",
+    videosrc: "cgimmvsnhjearbaunoss",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption: "Ya es un clásico",
@@ -97,7 +97,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/mono.mp4",
+    videosrc: "dw1zkfrlcb9niuyfmgv8",
     profilePic:
       "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png",
     caption:
@@ -121,7 +121,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/not_really_fine.mp4",
+    videosrc: "s0nl8p4ocogpiv2ejwli",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption: "Qué dura es la vida del hombre casado",
@@ -156,7 +156,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/excel.mp4",
+    videosrc: "mklbvnf99gmvopkw6bbn",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption: "Fórmulas de excel. Capítulo 37.",
@@ -165,7 +165,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/when_you_know_2.mp4",
+    videosrc: "aclhggpfqchfntcpeyuo",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption: "When you know, you know.",
@@ -187,7 +187,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/mama_golpe.mp4",
+    videosrc: "mqpm52dllf1jdhdedo2b",
     profilePic:
       "https://static.vecteezy.com/system/resources/previews/021/548/095/non_2x/default-profile-picture-avatar-user-avatar-icon-person-icon-head-icon-profile-picture-icons-default-anonymous-user-male-and-female-businessman-photo-placeholder-social-network-avatar-portrait-free-vector.jpg",
     caption: "Tú con tu futura hija",
@@ -204,7 +204,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/perro.mp4",
+    videosrc: "qcelkwphncnyateh44dj",
     profilePic:
       "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
     caption: "javascript html css react nodejs deploy php mysql",
@@ -227,7 +227,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/perry.mp4",
+    videosrc: "xo1tonnlbi1cvae4wbxs",
     profilePic:
       "https://st2.depositphotos.com/2559749/11304/v/450/depositphotos_113040644-stock-illustration-flat-icon-isolate-on-white.jpg",
     caption:
@@ -290,7 +290,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/when_you_know_3.mp4",
+    videosrc: "wnfbgnvterhvno00ocsu",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption: "When you know, you know.",
@@ -312,7 +312,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/pato.mp4",
+    videosrc: "uyagsielbkxl3hh3ifqm",
     profilePic:
       "https://cdn.pixabay.com/photo/2017/02/23/13/05/avatar-2092113_1280.png",
     caption:
@@ -439,7 +439,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/coche.mp4",
+    videosrc: "uesc19npk1bclqd3ggs6",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption: "Cámaras en directo captan a Marta saliendo del garaje.",
@@ -462,7 +462,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/bebe.mp4",
+    videosrc: "o8r9tebex0ptmezntfed",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
     caption: "It's your baby's first snow day!",
@@ -484,7 +484,7 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "videos/taylor.mp4",
+    videosrc: "mwzc0kdu89ezo9cxlgax",
     profilePic:
       "https://cdn.pixabay.com/photo/2017/02/23/13/05/avatar-2092113_1280.png",
     caption: "Taylor si tocara música buena de verdad",
