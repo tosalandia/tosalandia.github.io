@@ -92,7 +92,7 @@ const StyledVideo = styled.video`
 
 const StyledContainer = styled.div`
   position: relative;
-  height: 100vh;
+  height: ${window.innerHeight}px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,7 +107,7 @@ const StyledFront = styled.div`
   justify-content: center;
   align-items: center;
   position: absolute;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
 `;
 

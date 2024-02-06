@@ -1,9 +1,7 @@
 import { TikToks } from "../types/types";
 
 export const initialVideoSrc = "videos/home.mp4";
-export const finalVideoSrc =
-  "https://media.istockphoto.com/id/1392123838/es/v%C3%ADdeo/alimentaci%C3%B3n-de-desplazamiento-manual-en-el-tel%C3%A9fono-inteligente-con-pantalla-verde-mock-up.mp4?s=mp4-640x640-is&k=20&c=SZIcYR4LoKZjrzBfNEGA3uAbtvj5CLx-uRKnMcYERxw=";
-
+export const finalVideoSrc = "videos/final.mp4";
 export const fakeVideos: TikToks[] = [
   {
     type: "video",
@@ -24,6 +22,30 @@ export const fakeVideos: TikToks[] = [
         username: "ducky_ducky",
         comment:
           "A mí también me gustan los patos. Ojalá tuviera a alguien con quien compartir este vídeo",
+        date: "5 d",
+        likes: 12,
+      },
+    ],
+  },
+  {
+    type: "video",
+    videosrc: "videos/asmr.mp4",
+    profilePic:
+      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
+    caption:
+      "No tengo un micro caro, no tengo las uñas de Rosalía, no tengo un popit ni voy a hablarle al micro susurrando, pero te quiero y lo intento.",
+    username: "ASMR Toucan Sounds",
+    comments: [
+      {
+        username: "asmr_lover",
+        comment:
+          "Qué relajante, me da la sensación de quedarme... 😴😴😴zzzzzz😴😴😴",
+        date: "1 d",
+        likes: 5,
+      },
+      {
+        username: "@tosa",
+        comment: "Me encanta 😍😍😍",
         date: "5 d",
         likes: 12,
       },

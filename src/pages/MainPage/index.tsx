@@ -19,14 +19,12 @@ const MainPage = () => {
   };
 
   return (
-    <>
-      <MainContainer ref={ref}>
-        {data.map((video, index) => (
-          <TikTokRenderer key={index} tiktok={video} />
-        ))}
-        <LastCard goBack={reset} />
-      </MainContainer>
-    </>
+    <MainContainer ref={ref}>
+      {data.map((video, index) => (
+        <TikTokRenderer key={index} tiktok={video} />
+      ))}
+      <LastCard goBack={reset} />
+    </MainContainer>
   );
 };
 
@@ -43,7 +41,7 @@ const TikTokRenderer = ({ tiktok }: TikTokRendererProps) => {
 };
 
 const MainContainer = styled.div`
-  height: 100vh;
+  height: ${window.innerHeight}px;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
