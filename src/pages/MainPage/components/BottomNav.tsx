@@ -61,7 +61,7 @@ const StyledBottomNav = styled.div`
   position: absolute;
   bottom: 0%;
   left: 0%;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   margin-left: 10px;
 `;
 
@@ -72,7 +72,7 @@ const StyledRightBar = styled.div`
   display: flex;
   flex-direction: column;
   padding-right: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   gap: 20px;
 `;
 

@@ -42,7 +42,7 @@ const StyledVideo = styled.video`
 `;
 
 const VideoContainer = styled.div`
-  height: 100vh;
+  height: ${window.innerHeight}px;
   width: 100vw;
   scroll-snap-align: center;
   background: #000;
