@@ -5,50 +5,6 @@ export const finalVideoSrc = "videos/final.mp4";
 export const fakeVideos: TikToks[] = [
   {
     type: "video",
-    videosrc: "videos/not_really_fine.mp4",
-    profilePic:
-      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
-    caption: "Qué dura es la vida del hombre casado",
-    username: "Live from prison",
-    comments: [
-      {
-        username: "tosa",
-        comment: "Dramas, que eres un dramas",
-        date: "1 d",
-        likes: -5,
-      },
-      {
-        username: "generic_man",
-        comment: "Te entiendo perfectamente. No estás solo.",
-        date: "1 d",
-        likes: 77,
-      },
-      {
-        username: "common_guy",
-        comment: "Recuerda siempre: No ignores, denuncia.",
-        date: "1 d",
-        likes: 83,
-      },
-      {
-        username: "casual_guy",
-        comment:
-          "Las mujeres nos tratan como si fuéramos basura. No te preocupes, yo también lo he vivido.",
-        date: "1 d",
-        likes: 114,
-      },
-    ],
-  },
-  {
-    type: "video",
-    videosrc: "videos/excel.mp4",
-    profilePic:
-      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
-    caption: "Fórmulas de excel. Capítulo 37.",
-    username: "excel_lover_365",
-    comments: [],
-  },
-  {
-    type: "video",
     videosrc: "videos/patos.mp4",
     profilePic:
       "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
@@ -162,6 +118,50 @@ export const fakeVideos: TikToks[] = [
         likes: 1,
       },
     ],
+  },
+  {
+    type: "video",
+    videosrc: "videos/not_really_fine.mp4",
+    profilePic:
+      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
+    caption: "Qué dura es la vida del hombre casado",
+    username: "Live from prison",
+    comments: [
+      {
+        username: "tosa",
+        comment: "Dramas, que eres un dramas",
+        date: "1 d",
+        likes: -5,
+      },
+      {
+        username: "generic_man",
+        comment: "Te entiendo perfectamente. No estás solo.",
+        date: "1 d",
+        likes: 77,
+      },
+      {
+        username: "common_guy",
+        comment: "Recuerda siempre: No ignores, denuncia.",
+        date: "1 d",
+        likes: 83,
+      },
+      {
+        username: "casual_guy",
+        comment:
+          "Las mujeres nos tratan como si fuéramos basura. No te preocupes, yo también lo he vivido.",
+        date: "1 d",
+        likes: 114,
+      },
+    ],
+  },
+  {
+    type: "video",
+    videosrc: "videos/excel.mp4",
+    profilePic:
+      "https://microbiology.ucr.edu/sites/default/files/styles/form_preview/public/blank-profile-pic.png?itok=4teBBoet",
+    caption: "Fórmulas de excel. Capítulo 37.",
+    username: "excel_lover_365",
+    comments: [],
   },
   {
     type: "video",
