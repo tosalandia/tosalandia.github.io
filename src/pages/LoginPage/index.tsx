@@ -95,7 +95,7 @@ const StyledVideo = styled(AdvancedVideo)`
 
 const StyledContainer = styled.div`
   position: relative;
-  height: ${window.innerHeight}px;
+  height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;

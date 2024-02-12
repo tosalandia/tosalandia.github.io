@@ -26,7 +26,7 @@ const CommentsDrawer = ({
       <StyledTitle>Comentarios</StyledTitle>
       <div
         style={{
-          maxHeight: "80vh",
+          maxHeight: "80dvh",
         }}
       >
         {comments.map((comment, index) => (

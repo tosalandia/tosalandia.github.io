@@ -70,7 +70,7 @@ const StyledVideo = styled(AdvancedVideo)`
 `;
 
 const VideoContainer = styled.div`
-  height: ${window.innerHeight}px;
+  height: 100dvh;
   width: 100vw;
   scroll-snap-align: center;
   background: #000;
