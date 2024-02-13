@@ -170,24 +170,18 @@ export const fakeVideos: TikToks[] = [
   },
   {
     type: "video",
-    videosrc: "nuevas/hms8brey7efq5mmglx82",
+    videosrc: "nuevas/deironlgqkbuauxudtua",
     profilePic:
       "https://www.vitae.es/wp-content/uploads/2016/07/dieta-equilibrada-cuales-son-las-reglas-basicas-1.jpg",
     caption: "Día X de X de dieta de recorte",
     username: "The recortes dieta guy",
     comments: [
       {
-        username: "monkey",
+        username: "tosa",
         comment:
-          "Me siento identificado... Así iba yo a todos mis exámenes. Pero no me ha ido tan mal en la vida después de todo. Ahora soy tik toker y hago vídeos en directo fingiendo ser un robot.",
+          "Eso sí que es un ayuno intermitente. Yo no podría hacerlo, me muero de hambre.",
         date: "2 d",
         likes: 66,
-      },
-      {
-        username: "Pablo Alborán",
-        comment: "Buena canción de fondo, ¿quién la canta?",
-        date: "9 d",
-        likes: 1,
       },
     ],
   },
@@ -644,21 +638,7 @@ export const fakeVideos: TikToks[] = [
     caption:
       "Si conoces realmente a tu pareja sabrás decir cuál de estas opciones elige en cada situación.",
     username: "Tests de pareja",
-    comments: [
-      {
-        username: "colacados",
-        comment: "Estos seríamos tú y yo @tosa <3",
-        date: "1 d",
-        likes: 687,
-      },
-      {
-        username: "ducky_ducky",
-        comment:
-          "A mí también me gustan los patos. Ojalá tuviera a alguien con quien compartir este vídeo",
-        date: "5 d",
-        likes: 12,
-      },
-    ],
+    comments: [],
   },
   {
     type: "video",
@@ -671,7 +651,7 @@ export const fakeVideos: TikToks[] = [
       {
         username: "toso",
         comment:
-          "Y para que haya al menos 1 comentario bonito en toda la web: Tosa, te quiero mucho. Quiero estar toda la vida contigo. Eres una mujer increíble, con tus más y tus menos. Te conozco y hasta 'tus menos' me parecen adorables. En cuanto me empezaste a gustar supe que acabaría saliendo contigo, y a día de hoy sé que nos vamos a casar. ❤️Te quiero❤️",
+          "Y para que haya al menos 1 comentario bonito en toda la web: \nTosa, te quiero mucho. Quiero estar toda la vida contigo. Eres una mujer increíble, con tus más y tus menos. Te conozco y hasta 'tus menos' me parecen adorables. En cuanto me empezaste a gustar supe que acabaría saliendo contigo, y a día de hoy sé que nos vamos a casar. ❤️Te quiero❤️",
         date: "Cada día",
         likes: 1,
       },
