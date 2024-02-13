@@ -42,9 +42,6 @@ const VideoCard = ({ video }: VideoCardProps) => {
   return (
     <VideoContainer>
       <Container>
-        {/* <StyledVideo ref={videoRef} loop autoPlay={isInViewport}>
-          <source src={videoUrl} type="video/mp4" />
-        </StyledVideo> */}
         <StyledVideo cldVid={videoUrl} autoPlay={isInViewport} loop />
         <CenteredSpan ref={spanRef}>{0}</CenteredSpan>
         <BottomNav
@@ -71,7 +68,7 @@ const StyledVideo = styled(AdvancedVideo)`
 
 const VideoContainer = styled.div`
   height: 100dvh;
-  width: 100vw;
+  width: 100dvw;
   scroll-snap-align: center;
   background: #000;
   position: relative;

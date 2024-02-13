@@ -45,7 +45,7 @@ const StyledVideo = styled(AdvancedVideo)`
 
 const VideoContainer = styled.div`
   height: 100dvh;
-  width: 100vw;
+  width: 100dvw;
   scroll-snap-align: center;
   background: #000;
   position: relative;

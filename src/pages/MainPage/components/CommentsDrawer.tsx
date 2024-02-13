@@ -29,23 +29,29 @@ const CommentsDrawer = ({
           maxHeight: "80dvh",
         }}
       >
-        {comments.map((comment, index) => (
-          <StyledCommentBox key={index}>
-            <div
-              style={{
-                flex: 1,
-              }}
-            >
-              <StyledUsername>{comment.username}</StyledUsername>
-              <StyledDate>{comment.date}</StyledDate>
-              <StyledComment>{comment.comment}</StyledComment>
-            </div>
-            <StyledLikes>
-              <HeartIcon size={20} stroke="#000" />
-              <span style={{ fontSize: 17 }}>{comment.likes}</span>
-            </StyledLikes>
-          </StyledCommentBox>
-        ))}
+        {comments.length > 0 ? (
+          comments.map((comment, index) => (
+            <StyledCommentBox key={index}>
+              <div
+                style={{
+                  flex: 1,
+                }}
+              >
+                <StyledUsername>{comment.username}</StyledUsername>
+                <StyledDate>{comment.date}</StyledDate>
+                <StyledComment>{comment.comment}</StyledComment>
+              </div>
+              <StyledLikes>
+                <HeartIcon size={20} stroke="#000" />
+                <span style={{ fontSize: 17 }}>{comment.likes}</span>
+              </StyledLikes>
+            </StyledCommentBox>
+          ))
+        ) : (
+          <p style={{ textAlign: "center", padding: 20, color: "#888" }}>
+            No hay comentarios
+          </p>
+        )}
       </div>
     </StyledSwipeableDrawer>
   );
