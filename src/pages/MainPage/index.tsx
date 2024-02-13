@@ -1,12 +1,12 @@
 import { useRef } from "react";
 import styled from "styled-components";
-import { fakeMixed } from "../../fakeData/fakedata";
+import { fakeVideos } from "../../fakeData/fakedata";
 import { TikToks } from "../../types/types";
 import CardCard from "./components/CardCard";
 import LastCard from "./components/LastCard";
 import VideoCard from "./components/VideoCard";
 
-const data = fakeMixed;
+const data = fakeVideos;
 
 const MainPage = () => {
   const ref = useRef<HTMLDivElement>(null);

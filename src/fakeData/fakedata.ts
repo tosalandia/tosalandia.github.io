@@ -38,7 +38,7 @@ export const fakeVideos: TikToks[] = [
     comments: [
       {
         username: "colacados",
-        comment: "And when you don't know... YOU DON'T KNOW 😭😭😭😭😭", // Emoji de llorar: 😭
+        comment: "And when you don't know... YOU DON'T KNOW 😭😭😭😭😭",
         date: "1 d",
         likes: 13,
       },
@@ -76,7 +76,14 @@ export const fakeVideos: TikToks[] = [
     caption:
       "Que te crees tú que estoy para estos humos después de tus enfados",
     username: "gato_king_69",
-    comments: [],
+    comments: [
+      {
+        username: "@tosa",
+        comment: "Me merezco eso y más 😡😡😡",
+        date: "3 d",
+        likes: 5,
+      },
+    ],
   },
   {
     type: "video",
@@ -88,13 +95,54 @@ export const fakeVideos: TikToks[] = [
     comments: [],
   },
   {
+    type: "cards",
+    imagessrc: [
+      "images/cultura1.png",
+      "images/cultura2.png",
+      "images/cultura3.png",
+      "images/cultura4.png",
+      "images/cultura5.png",
+      "images/cultura6.png",
+      "images/cultura7.png",
+      "images/cultura8.png",
+      "images/cultura9.png",
+    ],
+    profilePic:
+      "https://media.istockphoto.com/id/1186386668/es/vector/quiz-en-estilo-pop-art-c%C3%B3mico-quiz-palabra-de-juego-inteligente-dise%C3%B1o-de-ilustraci%C3%B3n.jpg?s=612x612&w=0&k=20&c=BawgBcBoYE9AmgDfM1t-aNg_nJFIV7fpRAEnTYwnT_Q=",
+    caption:
+      "¿Eres más listo que un niño de 5 años? ¡Descúbrelo con este test!",
+    username: "Tests de inteligencia",
+    comments: [
+      {
+        username: "colacados",
+        comment: ` 1º b) William Shakespeare \n 2º b) Amazonas \n 3º a) 1914 \n 4º c) Canberra \n 5º a) Leonardo da Vinci \n 6º b) Everest \n 7º a) Yuri Gagarin`,
+        date: "1 d",
+        likes: 68,
+      },
+    ],
+  },
+  {
     type: "video",
     videosrc: "cgimmvsnhjearbaunoss",
     profilePic:
       "https://i.pinimg.com/originals/f8/9c/08/f89c08df04ea1d8257438035c9df2b0b.jpg",
     caption: "Ya es un clásico",
     username: "weird_frog",
-    comments: [],
+    comments: [
+      {
+        username: "Toso",
+        comment: "Este vídeo me parece increíble. Me lo pondría cada día.",
+        date: "3 d",
+        likes: 84,
+      },
+      {
+        username: "distracted tosa",
+        comment:
+          "¿Alguien entiende por qué tiene tanta obsesión con el té? ¿Tiene algún significado oculto?",
+        date: "3 d",
+        likes: 2,
+      },
+    ],
   },
   {
     type: "video",
@@ -184,7 +232,21 @@ export const fakeVideos: TikToks[] = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png",
     caption: "Fórmulas de excel. Capítulo 37.",
     username: "excel_lover_365",
-    comments: [],
+    comments: [
+      {
+        username: "pro_gamer_guy_722",
+        comment:
+          "Muchas gracias por el videotutorial. Hacia la mitad me estaba aburriendo un poco, pero no sé cómo has conseguido captar mi atención 🙏🙏🙏",
+        date: "1 d",
+        likes: 34,
+      },
+      {
+        username: "colacados",
+        comment: "💼 💰 💵 💸 💸 💲",
+        date: "1 d",
+        likes: 99,
+      },
+    ],
   },
   {
     type: "video",
@@ -196,13 +258,13 @@ export const fakeVideos: TikToks[] = [
     comments: [
       {
         username: "colacados",
-        comment: "Y no quería decirlo pero...", // Emoji de llorar: 😭
+        comment: "Y no quería decirlo pero...",
         date: "1 d",
         likes: 13,
       },
       {
         username: "colacados",
-        comment: "😭 WHEN 😭 YOU 😭 DON'T 😭 KNOW 😭, YOU 😭 DON'T 😭 KNOW 😭", // Emoji de llorar: 😭
+        comment: "😭 WHEN 😭 YOU 😭 DON'T 😭 KNOW 😭, YOU 😭 DON'T 😭 KNOW 😭",
         date: "1 d",
         likes: 55,
       },
@@ -329,6 +391,38 @@ export const fakeVideos: TikToks[] = [
         comment: "madre mía cada día más tonto, qué será de nuestros hijos 😭",
         date: "1 d",
         likes: 1,
+      },
+    ],
+  },
+  {
+    type: "cards",
+    imagessrc: [
+      "images/pregunta1.png",
+      "images/pregunta2.png",
+      "images/pregunta3.png",
+      "images/pregunta4.png",
+      "images/pregunta5.png",
+      "images/pregunta6.png",
+      "images/respuestas.png",
+    ],
+    profilePic:
+      "https://media.istockphoto.com/id/1186386668/es/vector/quiz-en-estilo-pop-art-c%C3%B3mico-quiz-palabra-de-juego-inteligente-dise%C3%B1o-de-ilustraci%C3%B3n.jpg?s=612x612&w=0&k=20&c=BawgBcBoYE9AmgDfM1t-aNg_nJFIV7fpRAEnTYwnT_Q=",
+    caption:
+      "¿Eres más listo que un niño de 5 años? ¡Descúbrelo con este test!",
+    username: "Tests de inteligencia",
+    comments: [
+      {
+        username: "colacados",
+        comment: "Me las supe todas jejeje",
+        date: "1 d",
+        likes: 68,
+      },
+      {
+        username: "tosa",
+        comment:
+          "En la de Taylor hay un error, no han contado el disco que va a sacar en abril que TEKNIKAMENTE ya está grabado así que serían 11 mimimimimimi",
+        date: "1 d",
+        likes: -92,
       },
     ],
   },
@@ -567,37 +661,20 @@ export const fakeVideos: TikToks[] = [
     ],
   },
   {
-    type: "cards",
-    imagessrc: [
-      "images/pregunta1.png",
-      "images/pregunta2.png",
-      "images/pregunta3.png",
-      "images/pregunta4.png",
-      "images/pregunta5.png",
-      "images/pregunta6.png",
-      "images/respuestas.png",
-    ],
+    type: "video",
+    videosrc: "nuevas/bptslauo1k4fheik4nan",
     profilePic:
-      "https://media.istockphoto.com/id/1186386668/es/vector/quiz-en-estilo-pop-art-c%C3%B3mico-quiz-palabra-de-juego-inteligente-dise%C3%B1o-de-ilustraci%C3%B3n.jpg?s=612x612&w=0&k=20&c=BawgBcBoYE9AmgDfM1t-aNg_nJFIV7fpRAEnTYwnT_Q=",
-    caption:
-      "¿Eres más listo que un niño de 5 años? ¡Descúbrelo con este test!",
-    username: "Tests de inteligencia",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Love_Heart_symbol.svg/527px-Love_Heart_symbol.svg.png",
+    caption: "Te quiero bastante",
+    username: "I love u",
     comments: [
       {
-        username: "colacados",
-        comment: "Me las supe todas jejeje",
-        date: "1 d",
-        likes: 68,
-      },
-      {
-        username: "tosa",
+        username: "toso",
         comment:
-          "En la de Taylor hay un error, no han contado el disco que va a sacar en abril que TEKNIKAMENTE ya está grabado así que serían 11 mimimimimimi",
-        date: "1 d",
-        likes: -92,
+          "Y para que haya al menos 1 comentario bonito en toda la web: Tosa, te quiero mucho. Quiero estar toda la vida contigo. Eres una mujer increíble, con tus más y tus menos. Te conozco y hasta 'tus menos' me parecen adorables. En cuanto me empezaste a gustar supe que acabaría saliendo contigo, y a día de hoy sé que nos vamos a casar. ❤️Te quiero❤️",
+        date: "Cada día",
+        likes: 1,
       },
     ],
   },
 ];
-
-export const fakeMixed: TikToks[] = fakeVideos;
