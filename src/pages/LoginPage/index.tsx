@@ -1,31 +1,29 @@
 import { AdvancedVideo } from "@cloudinary/react";
 import { Cloudinary } from "@cloudinary/url-gen/index";
 import { Button, TextField } from "@mui/material";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { initialVideoSrc } from "../../fakeData/fakedata";
 
 const credentials = {
-  username: "",
-  password: "",
+  username: "tosa",
+  password: "16/08/2018",
 };
 
 const LoginPage = () => {
   const navigate = useNavigate();
   const cld = new Cloudinary({ cloud: { cloudName: "dfpalvvqh" } });
   const videoUrl = cld.video(initialVideoSrc);
+  const userRef = useRef<HTMLInputElement>(null);
+  const passwordRef = useRef<HTMLInputElement>(null);
 
-  const [user, setUser] = useState<{
-    username: string;
-    password: string;
-  }>({ username: "", password: "" });
   const [hint, setHint] = useState<string>("");
 
   const handleLogin = () => {
     if (
-      user?.username === credentials.username &&
-      user?.password === credentials.password
+      userRef.current?.value.toLowerCase() === credentials.username &&
+      passwordRef.current?.value.toLowerCase() === credentials.password
     ) {
       navigate("/main");
     } else {
@@ -41,19 +39,15 @@ const LoginPage = () => {
       <StyledFront>
         <StyledBox>
           <StyledTextField
+            inputRef={userRef}
             placeholder="Username"
             variant="outlined"
-            onChange={(e) => {
-              setUser({ ...user, username: e.target.value });
-            }}
             fullWidth
           />
           <StyledTextField
+            inputRef={passwordRef}
             placeholder="Password"
             variant="outlined"
-            onChange={(e) => {
-              setUser({ ...user, password: e.target.value });
-            }}
             fullWidth
           />
 
@@ -111,7 +105,7 @@ const StyledFront = styled.div`
   align-items: center;
   position: absolute;
   height: 100%;
-  width: 100vw;
+  width: 100dvw;
 `;
 
 const StyledBox = styled.div`
