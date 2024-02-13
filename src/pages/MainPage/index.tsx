@@ -12,10 +12,10 @@ const MainPage = () => {
   const ref = useRef<HTMLDivElement>(null);
 
   const reset = () => {
-    controlarVideos();
+    //controlarVideos();
     ref.current?.scroll({
       top: 0,
-      behavior: "smooth",
+      behavior: "instant",
     });
   };
 
