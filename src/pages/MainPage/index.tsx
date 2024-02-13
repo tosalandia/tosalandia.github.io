@@ -12,28 +12,10 @@ const MainPage = () => {
   const ref = useRef<HTMLDivElement>(null);
 
   const reset = () => {
-    //controlarVideos();
     ref.current?.scroll({
       top: 0,
       behavior: "instant",
     });
-  };
-
-  const controlarVideos = () => {
-    // Paso 1: Seleccionar todos los elementos <video>
-    const videos = document.getElementsByTagName("video");
-
-    // Paso 2: Iterar sobre los videos para pausar o detener la reproducción
-    for (let i = 0; i < videos.length; i++) {
-      // Pausar o detener el video
-      videos[i].pause(); // puedes cambiarlo a videos[i].stop() si quieres detener la reproducción completamente
-      console.log(videos[i]);
-    }
-
-    // Paso 3: Seleccionar el primer vídeo de la lista y reproducirlo
-    if (videos.length > 0) {
-      videos[0].play();
-    }
   };
 
   return (
